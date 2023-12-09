@@ -133,7 +133,7 @@ int main(int argc, char* argv[])
     To DO 1 : Please use multicast !
   */
   ndn::StrategyChoiceHelper::InstallAll("/prefix","/localhost/nfd/strategy/multicast");
-  ndn::StrategyChoiceHelper::InstallAll("/postfix","/localhost/nfd/strategy/multicast");
+  //ndn::StrategyChoiceHelper::InstallAll("/postfix","/localhost/nfd/strategy/multicast");
   // consumer
   /*
     To Do 2 : Implement the consumer setting
